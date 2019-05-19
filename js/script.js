@@ -13,7 +13,7 @@ frm.submit(function (e) {
                 $("input").prop('disabled', true);
                 $("#submit-form").attr("disabled", true);
             },
-            url: '',
+            url: 'https://script.google.com/macros/s/AKfycbz5SGXpIY8CqhwDDz3kvLEeFQh4wq8n93fTOBwwFtJMD87IkyE/exec',
             data: frm.serialize(),
             success: function (data) {
                 $('#SuccessModal').modal('show');
